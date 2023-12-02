@@ -53,13 +53,13 @@
                 <input type="text" id="kode" name="kode" class="form-control" placeholder="Kode/Label" />
               </div>
               <div class="col-md-4">
-                <label for="tgl" class="form-label">Tanggal Pinjam</label>
+                <label for="tgl" class="form-label">Tanggal Kembali</label>
                 <input type="date" id="tgl" class="form-control" name="tanggal" />
-                <input type="checkbox" class="btn-check" name="status" value="Meminjam" autocomplete="off" checked>
+                <input type="checkbox" class="btn-check" name="status" value="Mengembalikan" autocomplete="off" checked>
               </div>
               <div class="p-3 text-center">
                       <button type="button" class="btn btn-danger float-right" onclick="logout()">Logout</button>
-                      <a href="dashboardP.php" class="btn btn-primary">Mengembalikan</a>
+                      <a href="dashboard.php" class="btn btn-primary">Meminjam</a>
                         <button type="submit" class="btn btn-success btn-kirim">Kirim data</button>
                         <button class="btn btn-success btn-loading d-none" type="button" disabled>
                         <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
